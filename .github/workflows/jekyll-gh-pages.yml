@@ -64,7 +64,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         if: github.ref == 'refs/heads/main'
         with:
-          # token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages  # default: gh-pages
           folder: dist
           clean: true # Automatically remove deleted files from the deploy branch
