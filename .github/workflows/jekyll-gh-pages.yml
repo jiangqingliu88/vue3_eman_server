@@ -45,7 +45,7 @@ jobs:
           node-version: 20
           cache: 'pnpm'
       - name: Build
-        run: pnpm run build:prod
+        run: pnpm run build
       - name: Setup Pages
         uses: actions/configure-pages@v3
       #- name: Upload artifact
